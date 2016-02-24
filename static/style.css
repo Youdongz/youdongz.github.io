@@ -1,0 +1,13 @@
+
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.template {
+	font-size: 3em;
+	font-family: 'Verdana';
+	text-align: center;
+	color: #ffa64d;
+}
