@@ -1,12 +1,25 @@
 <html>
 <head>
 	<link rel= "stylesheet" type= "text/css" href= "style.css">
+	<script type='text/javascript' src='script.js'></script>
 </head>
 
 <body>
 	<div class= "container">
-		<div class = "template">
-			<h2 class= "chya"> Chya Status: </h2>
+			<div id= "status">
+				<div id="origin">
+					<center>
+						<h3> Chya Status: </h3>
+						<h2 class = "green"> Open </h2>
+					</center>
+				</div>
+			</div>
+		<div id= "box">
+			<center>
+				<form id= "lock">
+					<input type="button" id="knock" value="Knock on Chya" onClick="passWord()">
+				</form>
+			</center>
 		</div>
 	</div>
 </body>
