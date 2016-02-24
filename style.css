@@ -47,6 +47,7 @@
 	background-color: #ffa64d;
 	color: white;
 	margin-top: 150px;
+	border-radius: 0px;
 }
 
 #knock:focus {
